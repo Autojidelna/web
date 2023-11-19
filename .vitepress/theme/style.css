@@ -1,5 +1,8 @@
-
 html {
-  font-family: Arial, Helvetica;
+	font-family: Arial, Helvetica;
 }
 
+body {
+	margin: 0;
+	padding: 1em;
+}
