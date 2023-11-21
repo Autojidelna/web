@@ -1,6 +1,6 @@
 ---
 title: Changelogs
-description: Changelogs of Autojídelna releases
+description: Changelogs of Autojídelna releases.
 lastUpdated: false
 editLink: false
 next: false

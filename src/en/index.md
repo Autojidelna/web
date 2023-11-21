@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "Autojídelna"
-  tagline: Aplikace pro objednávání ze systému Icanteen
+  tagline: The Icanteen ordering app
   actions:
     - theme: brand
       text: Get started
-      link: /guides/getting-started/index.md
+      link: /en/guides/getting-started/index.md
     - theme: alt
-      text: Stáhnout
-      link: /download/index.md
+      text: Download
+      link: /en/download/index.md
 
 features:
   - title: Feature A
