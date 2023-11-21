@@ -7,14 +7,11 @@ hero:
   tagline: Aplikace pro objednávání ze systému Icanteen
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get started
+      link: /guides/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
-    - theme: brand
       text: Download
-      link: https://github.com/tpkowastaken/autojidelna/releases/download/v1.2.7/autojidelna.apk
+      link: /download
 
 features:
   - title: Feature A

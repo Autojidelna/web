@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="..\..\..\images\logo.svg"
+   inkscape:export-xdpi="3"
+   inkscape:export-ydpi="3"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="logo_dark_theme.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Logo - Autojídelna</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.75878906"
+     inkscape:cx="344.62806"
+     inkscape:cy="347.26384"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.055439,-48.273685)">
+    <path
+       id="path2"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.43358"
+       d="m 320.22892,65.748301 -43.45277,17.004225 -52.90266,72.737654 -1.88717,167.2031 39.67278,-4.72355 3.77998,209.71508 33.06207,15.11426 z m 145.47813,0 -45.34553,17.947814 -48.17633,85.018345 17.94781,85.96472 33.06208,41.56558 -2.83356,240.88715 41.56556,-15.11705 10.3907,-216.323 27.39492,-51.01268 45.34274,-74.62765 -38.7292,-89.741877 z m -342.90972,26.451332 -36.842019,9.447117 2.833557,116.1904 -23.614952,1.88998 -0.946395,-116.19321 -31.172082,8.5035 0.943599,161.53596 60.456955,57.62341 -9.447084,206.87872 50.069091,-3.77995 5.66714,-208.76871 22.67138,-62.34696 -0.94359,-161.53314 -19.8378,-1.88999 -2.83357,120.91396 h -21.72778 z" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Autojídelna - Logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Matěj Verhaegen</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:description>Logo for the app Autojídelna - white</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nd/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nd/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
