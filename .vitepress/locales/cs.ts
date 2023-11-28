@@ -26,7 +26,7 @@ export const csConfig: LocaleSpecificConfig<
           { text: 'Changelogy', link: '/changelogs/index.md' }
         ],
 			},
-			{ text: "Návody", link: "/guides/getting-started/index.md", },
+			//{ text: "Návody", link: "/guides/getting-started/index.md", },
 		],
     sidebar: [
 			{
@@ -35,12 +35,12 @@ export const csConfig: LocaleSpecificConfig<
 					{ text: "Changelogy", link: "/changelogs/index.md" },
 				],
 			},
-			{
+			/*{
 				text: "Návody",
 				items: [
 					{ text: "Getting Started", link: "/guides/getting-started/index.md" },
 				]
-			},
+			},*/
 		],
   },
 }

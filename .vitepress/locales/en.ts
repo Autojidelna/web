@@ -12,7 +12,7 @@ export const enConfig: LocaleSpecificConfig<
     ['meta', { property: 'og:locale', content: 'en-US' }],
   ],
   themeConfig: {
-    logo: { light: "/logo_black.svg", dark: "/en/logo_white.svg" },
+    logo: { light: "/logo_black.svg", dark: "/logo_white.svg" },
 		siteTitle: 'Autojídelna',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Autojidelna/autojidelna' },
@@ -26,7 +26,7 @@ export const enConfig: LocaleSpecificConfig<
           { text: 'Changelogs', link: 'en//changelogs/index.md' }
         ],
 			},
-			{ text: "Guides", link: "/en/guides/getting-started/index.md", },
+			//{ text: "Guides", link: "/en/guides/getting-started/index.md", },
 		],
     sidebar: [
 			{
@@ -35,12 +35,12 @@ export const enConfig: LocaleSpecificConfig<
 					{ text: "Changelogs", link: "/en/changelogs/index.md" },
 				],
 			},
-			{
+			/*{
 				text: "Guides",
 				items: [
 					{ text: "Getting Started", link: "/en/guides/getting-started/index.md" },
 				]
-			},
+			},*/
 		],
   },
 }
