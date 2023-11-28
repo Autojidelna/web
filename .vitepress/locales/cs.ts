@@ -31,7 +31,7 @@ export const csConfig: LocaleSpecificConfig<
     sidebar: [
 			{
 				items: [
-					{ text: "Stáhnout", link: "/download/index.md" },
+					{ text: "Stáhnout aplikaci", link: "/download/index.md" },
 					{ text: "Changelogy", link: "/changelogs/index.md" },
 				],
 			},
