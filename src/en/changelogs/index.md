@@ -7,4 +7,4 @@ next: false
 prev: false
 ---
 
-# Changelogy
+# Changelogs
