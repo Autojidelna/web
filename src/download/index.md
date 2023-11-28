@@ -6,5 +6,15 @@ editLink: false
 next: false
 prev: false
 ---
+<script setup>
+  import ReleaseDate from "@theme/components/ReleaseDate.vue"
+  import DownloadButton from "@theme/components/DownloadButton.vue"
+</script>
 
 # Download
+
+Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate type="stable" />**.
+
+<DownloadButton />
+
+Vyžaduje **Android 6.0** nebo vyšší.
