@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import { computed, onMounted, ref, toRefs } from 'vue'
-import moment from 'moment'
+import { onMounted, ref, toRefs } from 'vue'
 import { type AppRelease, data as release } from '../data/release.data'
+import { useData } from 'vitepress';
 
 const props = defineProps<{ type: keyof AppRelease }>()
 const { type } = toRefs(props)
-
-const momentInfo = computed(() => ({
-  exact: moment(release[type.value].published_at).format('DD/MM/YYYY [-] HH:mm'),
-}))
 
 // Mimic the <ClientOnly /> behavior to show custom text while rendering.
 const show = ref(false)
@@ -16,10 +12,16 @@ const show = ref(false)
 onMounted(() => {
   show.value = true
 })
+
+const locale = (useData().lang?.value || '').substring(0, 2) || 'default';
+const dateFormatter = new Intl.DateTimeFormat(locale, {
+  dateStyle: 'long',
+})
+
 </script>
 
 <template>
   <time>
-    {{ momentInfo.exact }}
+    {{ dateFormatter.format(new Date(release.stable.published_at!)) }}
   </time>
 </template>
