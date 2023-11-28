@@ -15,6 +15,10 @@ prev: false
 
 The latest version of **Autojídelna** was released on **<ReleaseDate type="stable" />**.
 
+::: danger Unsupported operating system
+**Autojídelna** is an **Android app** only. Use an **Android device** to download and install the app.
+:::
+
 <DownloadButton />
 
 Requires **Android 6.0** or higher.

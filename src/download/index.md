@@ -11,9 +11,13 @@ prev: false
   import DownloadButton from "@theme/components/DownloadButton.vue"
 </script>
 
-# Download
+# Stáhnout aplikaci
 
 Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate type="stable" />**.
+
+::: danger Nepodporovaný operační systém
+**Autojídelna** je aplikace pouze pro **Android**. Ke stažení a instalaci aplikace použijte **Android zařízení**.
+:::
 
 <DownloadButton />
 
