@@ -7,4 +7,10 @@ next: false
 prev: false
 ---
 
-# Getting started
+# Začínáme
+
+## Průvodce stahováním
+
+1. Nejnovější verzi získáte na stránce [download](/cs/download/).
+2. Po dokončení stahování otevřete soubor `autojidelna.apk`.
+3. Pokračujte v instalaci.

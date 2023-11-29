@@ -33,7 +33,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 			},
 			{
 				text: "Návody",
-				items: [{ text: "Getting Started", link: "/cs/guides/getting-started/index.md" }],
+				items: [{ text: "Začínáme", link: "/cs/guides/getting-started/index.md" }],
 			},
 		],
 	},
