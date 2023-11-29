@@ -3,13 +3,6 @@ import MarkdownIt from "markdown-it";
 import { data as changelogs } from "../data/changelogs.data";
 
 const md = new MarkdownIt();
-
-function renderMarkdown(string: string | null | undefined) {
-	const body = string ?? "No changelog provided.";
-	const flavoredString = body.trim().split("##");
-
-	return flavoredString.map((entry) => md.render(entry));
-}
 </script>
 
 <template>
@@ -24,7 +17,7 @@ function renderMarkdown(string: string | null | undefined) {
 					:aria-label="`Permalink to &quot;${changelog.title}&quot;`"
 				/>
 			</h2>
-			<div v-html="renderMarkdown(changelog.content)" />
+			<div v-html="md.render(changelog.content)" />
 		</div>
 	</div>
 </template>
