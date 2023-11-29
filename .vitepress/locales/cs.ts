@@ -22,7 +22,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 					{ text: "Changelogy", link: "/cs/changelogs/index.md" },
 				],
 			},
-			//{ text: "Návody", link: "/cs/guides/getting-started/index.md", },
+			{ text: "Návody", link: "/cs/guides/getting-started/index.md" },
 		],
 		sidebar: [
 			{
@@ -31,12 +31,10 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 					{ text: "Changelogy", link: "/cs/changelogs/index.md" },
 				],
 			},
-			/*{
+			{
 				text: "Návody",
-				items: [
-					{ text: "Getting Started", link: "/cs/guides/getting-started/index.md" },
-				]
-			},*/
+				items: [{ text: "Getting Started", link: "/cs/guides/getting-started/index.md" }],
+			},
 		],
 	},
 };

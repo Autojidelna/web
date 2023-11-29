@@ -22,7 +22,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 					{ text: "Changelogs", link: "/en/changelogs/index.md" },
 				],
 			},
-			//{ text: "Guides", link: "/en/guides/getting-started/index.md", },
+			{ text: "Guides", link: "/en/guides/getting-started/index.md" },
 		],
 		sidebar: [
 			{
@@ -31,12 +31,10 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 					{ text: "Changelogs", link: "/en/changelogs/index.md" },
 				],
 			},
-			/*{
+			{
 				text: "Guides",
-				items: [
-					{ text: "Getting Started", link: "/en/guides/getting-started/index.md" },
-				]
-			},*/
+				items: [{ text: "Getting Started", link: "/en/guides/getting-started/index.md" }],
+			},
 		],
 	},
 };
