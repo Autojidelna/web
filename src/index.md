@@ -1,20 +1,27 @@
 ---
-home: true
-layout: home
-
-hero:
-  name: "Autojídelna"
-  tagline: Aplikace pro objednávání ze systému Icanteen
-  actions:
-    - theme: brand
-      text: Stáhnout
-      link: /download/index.md
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+layout: false
+lastUpdated: false
+editLink: false
+prev: false
+next: false
 ---
+
+<script setup lang="ts">
+import { onMounted } from 'vue';
+
+const supportedLanguages = ['cs', 'en'];
+
+onMounted(() => {
+  const preferredLanguage = window.navigator.language.toLowerCase();
+
+  const matchingLanguage = supportedLanguages.find(lang => preferredLanguage.startsWith(lang));
+
+  if (matchingLanguage) {
+    // Change the path to the matched language version
+    window.location.pathname = `/${matchingLanguage}/`;
+  } else {
+    // Fallback to the default version if no match is found
+    window.location.pathname = `/${supportedLanguages[0]}/`;
+  }
+});
+</script>
