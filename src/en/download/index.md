@@ -11,6 +11,11 @@ prev: false
   import ReleaseDate from "@theme/components/ReleaseDate.vue"
   import DownloadButton from "@theme/components/DownloadButton.vue"
   import Changelog from "@theme/components/Changelog.vue"
+  
+  const isAndroid = ref(true)
+  onMounted(() => {
+    isAndroid.value = !!navigator.userAgent.match(/android/i)
+  })
 </script>
 
 # Download
