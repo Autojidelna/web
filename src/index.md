@@ -1,9 +1,5 @@
 ---
 layout: false
-lastUpdated: false
-editLink: false
-prev: false
-next: false
 ---
 
 <script setup lang="ts">
