@@ -12,6 +12,8 @@
   "dependencies": {
     "@octokit/rest": "^20.0.2",
     "esbuild": "^0.19.7",
+    "markdown-it": "^13.0.2",
+    "markdown-it-shortcode-tag": "^1.1.0",
     "octokit": "^3.1.2"
   }
 }
