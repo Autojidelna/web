@@ -7,11 +7,11 @@ hero:
   tagline: The Icanteen ordering app
   actions:
     - theme: brand
+      text: Get started
+      link: /en/guides/getting-started/index.md
+    - theme: alt
       text: Download
       link: /en/download/index.md
-    - theme: alt
-      text: Guides
-      link: /en/guides/getting-started/index.md
 
 features:
   - title: Notifications

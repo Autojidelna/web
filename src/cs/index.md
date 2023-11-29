@@ -7,11 +7,11 @@ hero:
   tagline: Aplikace pro objednávání ze systému Icanteen
   actions:
     - theme: brand
+      text: Začínáme
+      link: /cs/guides/getting-started/index.md
+    - theme: alt
       text: Stáhnout
       link: /cs/download/index.md
-    - theme: alt
-      text: Návody
-      link: /cs/guides/getting-started/index.md
 
 features:
   - title: Oznámení
