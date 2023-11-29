@@ -18,7 +18,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 			{
 				text: "Stáhnout aplikaci",
 				items: [
-					{ text: "Stáhnout", link: "/cs/download/index.md" },
+					{ text: "Stáhnout aplikaci", link: "/cs/download/index.md" },
 					{ text: "Changelogy", link: "/cs/changelogs/index.md" },
 				],
 			},
