@@ -18,5 +18,6 @@ prev: false
 ::: tip OPRAVNĚNÍ K INSTALACI
 V závislosti na nastavení vašeho zařízení může být potřeba udělit **prohlížeči** povolení pro instalaci neznámých aplikací.
 
-![Bezpečnostní varování](/install_permission.webp "Bezpečnostní varování"){width="400em" style="display: flex; justify-content: center; margin: 2em auto; border-radius: 1em; box-shadow: 0 0 1em rgba(255, 255, 255, 0.25);"}
+![Bezpečnostní varování](/install_permission.webp "Bezpečnostní varování"){class="install-permission-images"}
+![Instalovat neznámé aplikace | Nastavení](/install_unknown_apps_settings.webp "Instalovat neznámé aplikace | Nastavení"){class="install-permission-images"}
 :::

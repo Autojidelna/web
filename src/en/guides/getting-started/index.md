@@ -18,5 +18,6 @@ prev: false
 ::: tip INSTALL PERMISSION
 Depending on your device settings, you might need to grant **your browser** permission to install unknown apps.
 
-![Security warning](/install_permission.webp "Security warning"){width="400em" style="display: flex; justify-content: center; margin: 2em auto; border-radius: 1em; box-shadow: 0 0 1em rgba(255, 255, 255, 0.25);"}
+![Security warning](/install_permission.webp "Security warning"){class="install-permission-images"}
+![Install Unknown Apps | Settings](/install_unknown_apps_settings.webp "Install Unknown Apps | Settings"){class="install-permission-images"}
 :::
