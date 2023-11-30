@@ -2,6 +2,8 @@
 home: true
 layout: home
 
+title: Home
+
 hero:
   name: "Autojídelna"
   tagline: Aplikace pro objednávání ze systému Icanteen
