@@ -36,5 +36,9 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 				items: [{ text: "Getting Started", link: "/en/guides/getting-started/index.md" }],
 			},
 		],
+		footer: {
+			message: "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Released under the GPL-3.0 license</a>",
+			copyright: `Copyright © 2023 Matěj Verhaegen, Tomáš Protiva`,
+		},
 	},
 };

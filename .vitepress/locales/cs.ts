@@ -36,5 +36,9 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 				items: [{ text: "Začínáme", link: "/cs/guides/getting-started/index.md" }],
 			},
 		],
+		footer: {
+			message: "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Vydáno pod licencí GPL-3.0</a>",
+			copyright: `Copyright © 2023 Matěj Verhaegen, Tomáš Protiva`,
+		},
 	},
 };
