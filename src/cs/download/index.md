@@ -36,3 +36,7 @@ Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
 <center>Vyžaduje <b>Android 6.0</b> nebo vyšší.</center>
 
 <Changelog />
+
+<div style="margin-top: 2em; text-align: center; color: #888888;">
+  Všechny changelogy naleznete na <a href="/cs/download/">Changelog stránce</a>.
+</div>

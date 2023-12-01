@@ -36,3 +36,7 @@ The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 <center>Requires <b>Android 6.0</b> or higher.</center>
 
 <Changelog />
+
+<div style="margin-top: 2em; text-align: center; color: #888888;">
+  All changelogs can be found on the <a href="/en/download/">Changelog page</a>.
+</div>
