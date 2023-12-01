@@ -38,5 +38,5 @@ The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 <Changelog />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
-  All changelogs can be found on the <a href="/en/download/">Changelog page</a>.
+  All changelogs can be found on the <a href="/en/changelogs/">Changelog page</a>.
 </div>

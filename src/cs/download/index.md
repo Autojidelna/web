@@ -38,5 +38,5 @@ Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
 <Changelog />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
-  Všechny changelogy naleznete na <a href="/cs/download/">Changelog stránce</a>.
+  Všechny changelogy naleznete na <a href="/cs/changelogs/">Changelog stránce</a>.
 </div>
