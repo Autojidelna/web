@@ -11,7 +11,7 @@ prev: false
 
 ## Průvodce stahováním
 
-1. Navštivte naši [stránku](/cs/download/) a stáhněte nejnovější verzi aplikace **Autojídelna**.
+1. Navštivte [stránku se stažením](/cs/download/) a stáhněte nejnovější verzi aplikace **Autojídelna**.
 2. Po dokončení stahování otevřete soubor `autojidelna.apk`.
 3. Pokračujte v instalaci.
 
