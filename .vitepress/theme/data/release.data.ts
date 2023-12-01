@@ -6,20 +6,16 @@ const octokit = new Octokit();
 
 type GitHubRelease = GetResponseDataTypeFromEndpointMethod<typeof octokit.repos.getLatestRelease>;
 
-export interface AppRelease {
-	stable: GitHubRelease;
-}
-
-declare const data: AppRelease;
+declare const data: GitHubRelease;
 export { data };
 
 export default defineLoader({
-	async load(): Promise<AppRelease> {
+	async load(): Promise<GitHubRelease> {
 		const { data: stable } = await octokit.repos.getLatestRelease({
 			owner: "Autojidelna",
 			repo: "autojidelna",
 		});
 
-		return { stable };
+		return stable;
 	},
 });

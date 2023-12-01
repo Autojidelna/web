@@ -21,7 +21,7 @@ prev: false
 
 # Stáhnout aplikaci
 
-Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate type="stable" />**.
+Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Nepodporovaný operační systém</p>

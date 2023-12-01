@@ -2,23 +2,19 @@
 import { computed } from "vue";
 import { data as release } from "../data/release.data";
 
-const downloadInformation = computed(() => ({
-	stable: {
-		tagName: release.stable.tag_name ?? "v0.0.0",
-		asset: (release.stable.assets ?? []).find((a) => /^autojidelna\.apk$/.test(a.name)),
-	},
-}));
+const downloadInformation = computed(() => {
+	return {
+		tagName: release.tag_name ?? "v0.0.0",
+		asset: (release.assets ?? []).find((a) => /^autojidelna\.apk$/.test(a.name)),
+	};
+});
 </script>
 
 <template>
 	<div class="download-buttons">
-		<a
-			class="download-button primary"
-			:download="downloadInformation.stable.asset?.name"
-			:href="downloadInformation.stable.asset?.browser_download_url"
-		>
+		<a class="download-button primary" :download="downloadInformation.asset?.name" :href="downloadInformation.asset?.browser_download_url">
 			<span>Stable </span>
-			<span>{{ downloadInformation.stable.tagName }}</span>
+			<span>{{ downloadInformation.tagName }}</span>
 		</a>
 	</div>
 </template>

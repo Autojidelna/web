@@ -21,7 +21,7 @@ prev: false
 
 # Download
 
-The latest version of **Autojídelna** was released on **<ReleaseDate type="stable" />**.
+The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Unsupported operating system</p>
