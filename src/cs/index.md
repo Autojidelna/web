@@ -17,9 +17,9 @@ hero:
 
 features:
   - title: Oznámení
-    details: Užijte si upozornění a už nikdy si nezapomeňte objednat oběd!
-  - title: Jednoduchost
-    details: Vyzkoušejte si jednoduchost naší aplikace, která je navržena pro snadnou navigaci a bezproblémovou interakci s uživatelem.
+    details: Díky upozorněním v aplikaci již nikdy nezapomenete objednat oběd.
+  - title: Open Source
+    details: Náš kód je open source a je k dispozici na GitHubu. Tím je zajištěna jeho kvalita a bezpečnost.
   - title: Automatické přihlášení
-    details: Zažijte bezproblémový přístup s automatickým přihlášením, díky kterému bude vaše cesta do naší aplikace rychlá a bezpečná.
+    details: Zažijte bezproblémový přístup s automatickým přihlášením.
 ---
