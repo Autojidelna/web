@@ -10,6 +10,6 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
 
 <template>
 	<time>
-		{{ dateFormatter.format(new Date(release.stable.published_at!)) }}
+		{{ dateFormatter.format(new Date(release.published_at!)) }}
 	</time>
 </template>

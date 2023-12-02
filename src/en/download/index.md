@@ -21,7 +21,7 @@ prev: false
 
 # Download
 
-The latest version of **Autojídelna** was released on **<ReleaseDate type="stable" />**.
+The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Unsupported operating system</p>
@@ -36,3 +36,7 @@ The latest version of **Autojídelna** was released on **<ReleaseDate type="stab
 <center>Requires <b>Android 6.0</b> or higher.</center>
 
 <Changelog />
+
+<div style="margin-top: 2em; text-align: center; color: #888888;">
+  All changelogs can be found on the <a href="/en/changelogs/">Changelog page</a>.
+</div>
