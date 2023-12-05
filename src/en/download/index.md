@@ -33,7 +33,7 @@ The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 
 <DownloadButton />
 
-<center>Requires <b>Android 6.0</b> or higher.</center>
+<div style="text-align: center;">Requires <b>Android 6.0</b> or higher.</div >
 
 <Changelog />
 
