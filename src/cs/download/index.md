@@ -33,7 +33,7 @@ Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
 
 <DownloadButton />
 
-<center>Vyžaduje <b>Android 6.0</b> nebo vyšší.</center>
+<div style="text-align: center;">Vyžaduje <b>Android 6.0</b> nebo vyšší.</div>
 
 <Changelog />
 
