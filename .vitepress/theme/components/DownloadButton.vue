@@ -1,21 +1,27 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { data as release } from "../data/release.data";
+import { onMounted, ref } from "vue";
+import { getLatestRelease } from "../data/github-api";
 
-const downloadInformation = computed(() => {
-	return {
-		tagName: release.tag_name ?? "v0.0.0",
-		asset: (release.assets ?? []).find((a) => /^autojidelna\.apk$/.test(a.name)),
-	};
+const release = ref(null);
+const asset = ref(null);
+
+onMounted(async () => {
+	try {
+		release.value = await getLatestRelease();
+		asset.value = (release.value.assets || []).find((a) => a.name === "autojidelna.apk");
+	} catch (error) {
+		console.error("Error fetching latest release data:", error);
+	}
 });
 </script>
 
 <template>
 	<div class="download-buttons">
-		<a class="download-button primary" :download="downloadInformation.asset?.name" :href="downloadInformation.asset?.browser_download_url">
+		<a v-if="release && asset" class="download-button primary" :download="asset?.name || 'autojidelna.apk'" :href="asset?.browser_download_url">
 			<span>Stable </span>
-			<span>{{ downloadInformation.tagName }}</span>
+			<span>{{ release?.tag_name ?? "0.0.0" }}</span>
 		</a>
+		<span v-else class="download-button dissabled">Loading . . .</span>
 	</div>
 </template>
 
@@ -48,6 +54,13 @@ const downloadInformation = computed(() => {
 	background-color: var(--vp-button-brand-bg);
 	text-decoration: none;
 	transition: all 150ms ease-in;
+}
+
+.dissabled {
+	border-color: var(--vp-button-brand-border);
+	color: var(--vp-button-brand-text);
+	background-color: var(--vp-button-brand-bg);
+	text-decoration: none;
 }
 
 .download-button.primary:hover {
