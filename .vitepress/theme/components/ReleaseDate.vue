@@ -1,15 +1,25 @@
 <script setup lang="ts">
-import { data as release } from "../data/release.data";
+import { ref, onMounted } from "vue";
+import { getLatestRelease } from "../data/github-api";
 import { useData } from "vitepress";
 
 const locale = useData().lang.value.substring(0, 2);
 const dateFormatter = new Intl.DateTimeFormat(locale, {
 	dateStyle: "long",
 });
+
+const release = ref(null);
+onMounted(async () => {
+	try {
+		release.value = await getLatestRelease();
+	} catch (error) {
+		console.error("Error fetching latest release date:", error);
+	}
+});
 </script>
 
 <template>
-	<time>
+	<time v-if="release">
 		{{ dateFormatter.format(new Date(release.published_at!)) }}
 	</time>
 </template>
