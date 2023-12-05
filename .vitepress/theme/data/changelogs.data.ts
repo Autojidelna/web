@@ -33,6 +33,20 @@ export default defineLoader({
 				return { title, content };
 			});
 
+		const release = await octokit.repos.getLatestRelease({
+			owner: "Autojidelna",
+			repo: "autojidelna",
+		});
+
+		var isLatestRelease = false;
+		do {
+			if (changelogArray[0].title !== release.data.tag_name.slice(1)) {
+				changelogArray.splice(0, 1);
+			} else {
+				isLatestRelease = !isLatestRelease;
+			}
+		} while (!isLatestRelease);
+
 		return changelogArray;
 	},
 });
