@@ -47,6 +47,10 @@ jobs:
         run: |
           npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
           touch .vitepress/dist/.nojekyll
+
+      - name: move pure-html to dist
+        run: |
+          mv pure-html/* .vitepress/dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
