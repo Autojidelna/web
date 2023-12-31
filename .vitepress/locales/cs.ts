@@ -33,6 +33,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 				items: [
 					{ text: "Stáhnout aplikaci", link: "/cs/download/index.md" },
 					{ text: "Changelogy", link: "/cs/changelogs/index.md" },
+					{ text: "Galerie", link: "/cs/gallery/index.md" },
 				],
 			},
 			{

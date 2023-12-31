@@ -33,6 +33,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 				items: [
 					{ text: "Download", link: "/en/download/index.md" },
 					{ text: "Changelogs", link: "/en/changelogs/index.md" },
+					{ text: "Gallery", link: "/en/gallery/index.md" },
 				],
 			},
 			{
