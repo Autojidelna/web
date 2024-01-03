@@ -1,5 +1,6 @@
 ---
 layout: false
+title: Guides
 ---
 
 <script setup lang="ts">

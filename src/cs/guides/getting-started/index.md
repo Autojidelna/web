@@ -1,7 +1,7 @@
 ---
-title: Getting started
-titleTemplate: Guides
-description: Essential information to start using Autojídelna.
+title: Začínáme
+titleTemplate: Návody
+description: Základní informace pro používání Autojídelny.
 lastUpdated: false
 next: false
 prev: false

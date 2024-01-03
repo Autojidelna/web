@@ -1,5 +1,6 @@
 ---
 layout: false
+title: Návody
 ---
 
 <script setup lang="ts">

@@ -1,6 +1,6 @@
 ---
-title: Changelogy
-description: Changelogy vydaných verzí Autojídelny.
+title: Changelogs
+description: Changelogs of the released versions of Autojídelna.
 lastUpdated: false
 editLink: false
 next: false
