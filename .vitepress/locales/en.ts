@@ -43,7 +43,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 		],
 		footer: {
 			message: "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Released under the GPL-3.0 license</a>",
-			copyright: `Copyright © 2023 Matěj Verhaegen, Tomáš Protiva`,
+			copyright: `Copyright © 2023 - ${new Date().getFullYear()} Matěj Verhaegen, Tomáš Protiva`,
 		},
 	},
 };
