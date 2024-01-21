@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "vite-imagetools": "^6.2.9",
     "vitepress": "^1.0.0-rc.29",
     "vue": "^3.3.8"
   },

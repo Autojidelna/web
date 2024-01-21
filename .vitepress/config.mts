@@ -1,8 +1,8 @@
-import { defineConfig } from "vitepress";
+import { imagetools } from "vite-imagetools";
 import { enConfig } from "./locales/en";
 import { csConfig } from "./locales/cs";
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default {
 	srcDir: "src",
 	lang: "cs-CZ",
 	lastUpdated: true,
@@ -22,4 +22,6 @@ export default defineConfig({
 			...enConfig,
 		},
 	},
-});
+
+	plugins: [imagetools()],
+};
