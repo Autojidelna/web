@@ -26,6 +26,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
 		nav: [
 			{ text: "Get app", link: "/en/download/index.md" },
+			{ text: "Gallery", link: "/en/gallery/index.md" },
 			{ text: "Guides", link: "/en/guides/getting-started/index.md" },
 		],
 		sidebar: [
@@ -33,6 +34,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 				items: [
 					{ text: "Download", link: "/en/download/index.md" },
 					{ text: "Changelogs", link: "/en/changelogs/index.md" },
+					{ text: "Gallery", link: "/en/gallery/index.md" },
 				],
 			},
 			{
@@ -42,7 +44,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 		],
 		footer: {
 			message: "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Released under the GPL-3.0 license</a>",
-			copyright: `Copyright © 2023 Matěj Verhaegen, Tomáš Protiva`,
+			copyright: `Copyright © 2023 - ${new Date().getFullYear()} Matěj Verhaegen, Tomáš Protiva`,
 		},
 	},
 };

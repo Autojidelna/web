@@ -1,6 +1,6 @@
 ---
-title: Download
-description: Download page that allows users to access and install the latest version of the app.
+title: Stáhnout aplikaci
+description: Stránka ke stažení, která uživatelům umožňuje přístup k nejnovější verzi aplikace a její instalaci.
 lastUpdated: false
 editLink: false
 next: false

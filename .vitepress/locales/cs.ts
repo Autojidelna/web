@@ -26,6 +26,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
 		nav: [
 			{ text: "Stáhnout aplikaci", link: "/cs/download/index.md" },
+			{ text: "Galerie", link: "/en/gallery/index.md" },
 			{ text: "Návody", link: "/cs/guides/getting-started/index.md" },
 		],
 		sidebar: [
@@ -33,6 +34,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 				items: [
 					{ text: "Stáhnout aplikaci", link: "/cs/download/index.md" },
 					{ text: "Changelogy", link: "/cs/changelogs/index.md" },
+					{ text: "Galerie", link: "/cs/gallery/index.md" },
 				],
 			},
 			{
@@ -42,7 +44,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 		],
 		footer: {
 			message: "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Vydáno pod licencí GPL-3.0</a>",
-			copyright: `Copyright © 2023 Matěj Verhaegen, Tomáš Protiva`,
+			copyright: `Copyright © 2023 - ${new Date().getFullYear()} Matěj Verhaegen, Tomáš Protiva`,
 		},
 	},
 };

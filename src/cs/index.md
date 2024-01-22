@@ -1,7 +1,6 @@
 ---
 home: true
 layout: home
-
 title: Home
 
 hero:
