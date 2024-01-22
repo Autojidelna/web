@@ -16,7 +16,7 @@ onMounted(async () => {
 });
 </script>
 
-<template class="changelog">
+<template>
 	<header>
 		<h2 style="display: flex; justify-content: center">Changelog</h2>
 	</header>
