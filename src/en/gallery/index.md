@@ -13,8 +13,4 @@ next: false
 
 # Gallery
 
-::: warning Attention
-Pictures are only available in Czech. We apologize for any inconvenience to non-Czech speakers.
-:::
-
 <GalleryBuilder />
