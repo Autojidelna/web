@@ -26,6 +26,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
 		nav: [
 			{ text: "Stáhnout aplikaci", link: "/cs/download/index.md" },
+			{ text: "Galerie", link: "/en/gallery/index.md" },
 			{ text: "Návody", link: "/cs/guides/getting-started/index.md" },
 		],
 		sidebar: [

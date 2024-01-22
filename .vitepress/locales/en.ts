@@ -26,6 +26,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
 		nav: [
 			{ text: "Get app", link: "/en/download/index.md" },
+			{ text: "Gallery", link: "/en/gallery/index.md" },
 			{ text: "Guides", link: "/en/guides/getting-started/index.md" },
 		],
 		sidebar: [
