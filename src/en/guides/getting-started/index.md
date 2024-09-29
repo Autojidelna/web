@@ -2,7 +2,7 @@
 title: Getting started
 titleTemplate: Guides
 description: Essential information to start using Autojídelna.
-lastUpdated: false
+lastUpdated: true
 next: false
 prev: false
 ---
