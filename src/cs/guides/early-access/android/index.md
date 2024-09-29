@@ -17,7 +17,7 @@ prev: false
 
 1. Přihlaste se do [Google Groups](https://groups.google.com/).
 
-2. Poté navštivte [naši skupinu](https://groups.google.com/a/appelevate.cz/g/autojidelna) a klikněte na tlačítko „Přidat se ke skupině“ vedle názvu skupiny.
+2. Navštivte [naši skupinu](https://groups.google.com/a/appelevate.cz/g/autojidelna) a klikněte na tlačítko „Přidat se ke skupině“ vedle názvu skupiny.
 
 <EarlyAccessAndroidImages />
 
