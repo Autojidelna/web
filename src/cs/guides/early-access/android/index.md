@@ -1,7 +1,7 @@
 ---
-title: Připojte se k předčasnému přístupu
+title: Předběžný přístup
 titleTemplate: Návody
-description: Naučte se, jak získat předčasný přístup k Autojídelně na Google Play Store.
+description: Naučte se, jak získat předběžný přístup k Autojídelně na Google Play Store.
 lastUpdated: true
 next: false
 prev: false
@@ -11,7 +11,7 @@ prev: false
   import EarlyAccessAndroidImages from '@theme/components/EarlyAccessAndroidImages.vue'
 </script>
 
-# Získejte předčasný přístup
+# Získejte předběžný přístup
 
 ## Krok 1: Staňte se testerem
 

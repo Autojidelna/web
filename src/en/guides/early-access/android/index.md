@@ -1,5 +1,5 @@
 ---
-title: Join Our Early Access Program
+title: Early Access Program
 titleTemplate: Guides
 description: Learn how to join our early access program on the Google Play Store.
 lastUpdated: true
