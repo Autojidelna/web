@@ -19,6 +19,8 @@ prev: false
 
 2. Visit [our group](https://groups.google.com/a/appelevate.cz/g/autojidelna) and click the "Join Group" button next to the group's name.
 
+3. Join our testing program by clicking [this link](https://play.google.com/apps/testing/cz.appelevate.autojidelna).
+
 <EarlyAccessAndroidImages />
 
 ## Step 2: Download the App

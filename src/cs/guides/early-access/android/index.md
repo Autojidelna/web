@@ -19,6 +19,8 @@ prev: false
 
 2. Navštivte [naši skupinu](https://groups.google.com/a/appelevate.cz/g/autojidelna) a klikněte na tlačítko „Přidat se ke skupině“ vedle názvu skupiny.
 
+3. Připojte se k našemu testovacímu programu kliknutím na [tento odkaz](https://play.google.com/apps/testing/cz.appelevate.autojidelna).
+
 <EarlyAccessAndroidImages />
 
 ## Krok 2: Stáhněte si aplikaci
