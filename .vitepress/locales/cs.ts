@@ -15,22 +15,22 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     siteTitle: "Autojídelna",
 
     nav: [
-      { text: "Stáhnout aplikaci", link: "/cs/download.md" },
-      { text: "Galerie", link: "/cs/gallery.md" },
-      { text: "Návody", link: "/cs/guides/getting-started.md" }
+      { text: "Stáhnout aplikaci", link: "/download.md" },
+      { text: "Galerie", link: "/gallery.md" },
+      { text: "Návody", link: "/guides/getting-started.md" }
     ],
 
     sidebar: [
       {
         items: [
-          { text: "Stáhnout aplikaci", link: "/cs/download.md" },
-          { text: "Changelogy", link: "/cs/changelogs.md" },
-          { text: "Galerie", link: "/cs/gallery.md" }
+          { text: "Stáhnout aplikaci", link: "/download.md" },
+          { text: "Changelogy", link: "/changelogs.md" },
+          { text: "Galerie", link: "/gallery.md" }
         ]
       },
       {
         text: "Návody",
-        items: [{ text: "Začínáme", link: "/cs/guides/getting-started.md" }]
+        items: [{ text: "Začínáme", link: "/guides/getting-started.md" }]
       }
     ],
 
@@ -51,7 +51,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     footer: {
       message:
-        "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Vydáno pod licencí GPL-3.0</a> | <a href='http://autojidelna.cz/cs/privacy-policy/'>Zásady ochrany osobních údajů</a>",
+        "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Vydáno pod licencí GPL-3.0</a> | <a href='http://autojidelna.cz/privacy-policy/'>Zásady ochrany osobních údajů</a>",
       copyright: `Copyright © 2023 - ${new Date().getFullYear()} Matěj Verhaegen, Tomáš Protiva`
     },
 
