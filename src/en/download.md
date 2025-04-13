@@ -1,23 +1,8 @@
 ---
-title: Download
 description: Download page that allows users to access and install the latest version of the app.
-lastUpdated: false
-editLink: false
 next: false
 prev: false
 ---
-
-<script setup>
-  import { computed, onMounted, ref } from 'vue'
-  import ReleaseDate from "@theme/components/ReleaseDate.vue"
-  import DownloadButton from "@theme/components/DownloadButton.vue"
-  import Changelog from "@theme/components/Changelog.vue"
-
-  const isAndroid = ref(true)
-  onMounted(() => {
-    isAndroid.value = !!navigator.userAgent.match(/android/i)
-  })
-</script>
 
 # Download
 
@@ -38,5 +23,19 @@ The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 <Changelog />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
-  All changelogs can be found on the <a href="/en/changelogs/">Changelog page</a>.
+  All changelogs can be found on the <a href="/en/changelogs.md">Changelog page</a>.
 </div>
+
+<!-- Setupt script -->
+
+<script setup lang="ts">
+  import { computed, onMounted, ref } from 'vue'
+  import ReleaseDate from "@theme/components/ReleaseDate.vue"
+  import DownloadButton from "@theme/components/DownloadButton.vue"
+  import Changelog from "@theme/components/Changelog.vue"
+
+  const isAndroid = ref(true)
+  onMounted(() => {
+    isAndroid.value = !!navigator.userAgent.match(/android/i)
+  })
+</script>
