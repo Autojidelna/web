@@ -1,28 +1,35 @@
 ---
-title: Předběžný přístup
 titleTemplate: Návody
 description: Naučte se, jak získat předběžný přístup k Autojídelně na Google Play Store.
-lastUpdated: true
 next: false
 prev: false
 ---
-
-<script setup>
-  import EarlyAccessAndroidImages from '@theme/components/EarlyAccessAndroidImages.vue'
-</script>
 
 # Získejte předběžný přístup
 
 ## Krok 1: Staňte se testerem
 
-1. Přihlaste se do [Google Groups](https://groups.google.com/).
+1. Přihlaste se do [Google Groups][google-groups].
 
-2. Navštivte [naši skupinu](https://groups.google.com/a/appelevate.cz/g/autojidelna) a klikněte na tlačítko „Přidat se ke skupině“ vedle názvu skupiny.
+2. Navštivte [naši skupinu][autojidelna-group] a klikněte na tlačítko „Přidat se ke skupině“ vedle názvu skupiny.
 
-3. Připojte se k našemu testovacímu programu kliknutím na [tento odkaz](https://play.google.com/apps/testing/cz.appelevate.autojidelna).
+3. Připojte se k našemu testovacímu programu kliknutím na [tento odkaz][testing].
 
 <EarlyAccessAndroidImages />
 
 ## Krok 2: Stáhněte si aplikaci
 
-Jakmile se připojíte, máte hotovo! Aplikaci si můžete stáhnout přímo z [Google Play Store](https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna).
+Jakmile se připojíte, máte hotovo! Aplikaci si můžete stáhnout přímo z [Google Play Store][google-play-store].
+
+<!-- Setup script -->
+
+<script setup lang="ts">
+  import EarlyAccessAndroidImages from '@theme/components/EarlyAccessAndroidImages.vue'
+</script>
+
+<!-- Links -->
+
+[google-groups]: https://groups.google.com/
+[autojidelna-group]: https://groups.google.com/a/appelevate.cz/g/autojidelna
+[testing]: https://play.google.com/apps/testing/cz.appelevate.autojidelna
+[google-play-store]: https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna
