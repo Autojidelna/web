@@ -12,7 +12,7 @@ export default {
     root: {
       label: "Čeština",
       lang: "cs-CZ",
-      link: "/cs/",
+      link: "/",
       ...csConfig
     },
     en: {
