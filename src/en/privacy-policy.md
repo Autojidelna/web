@@ -7,7 +7,7 @@ prev: false
 
 # Privacy Policy
 
-Welcome to Autojídelna, an app created by Tomáš Protiva and developed by App Elevate cz. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our app.
+Welcome to Autojídelna, an app created by Tomáš Protiva and Matěj Verhaegen. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our app.
 
 ## Information We Collect
 

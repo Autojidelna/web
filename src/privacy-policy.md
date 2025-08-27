@@ -7,7 +7,7 @@ prev: false
 
 # Zásady ochrany osobních údajů
 
-Vítejte v aplikaci Autojídelna, kterou vytvořil Tomáš Protiva a vyvinula společnost App Elevate cz. Vážíme si vašeho soukromí a zavazujeme se chránit vaše osobní údaje. Tyto zásady ochrany osobních údajů popisují, jak shromažďujeme, používáme a chráníme vaše údaje při používání naší aplikace.
+Vítejte v aplikaci Autojídelna, kterou vytvořili Tomáš Protiva a Matěj Verhaegen. Vážíme si vašeho soukromí a zavazujeme se chránit vaše osobní údaje. Tyto zásady ochrany osobních údajů popisují, jak shromažďujeme, používáme a chráníme vaše údaje při používání naší aplikace.
 
 ## Informace, které shromažďujeme
 
