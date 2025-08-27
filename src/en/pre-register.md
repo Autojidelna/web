@@ -13,7 +13,7 @@ Pre-register now to be among the first to experience the new app, packed with ex
  <p class="custom-block-title">Unsupported operating system</p>
   <p>
     <strong>Autojídelna</strong> is an <strong>Android app</strong> only.
-     Use an <strong>Android device</strong> to download and install the app.
+     Use an <strong>Android device</strong> to pre-register.
   </p>
 </div>
 

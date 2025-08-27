@@ -13,7 +13,7 @@ Předregistrujte se a buďte mezi prvními, kdo vyzkouší modernější aplikac
  <p class="custom-block-title">Nepodporovaný operační systém</p>
   <p>
     <strong>Autojídelna</strong> je aplikace pouze pro <strong>Android</strong>.
-     Ke stažení a instalaci aplikace použijte <strong>Android zařízení</strong>.
+     Na předběžnou registraci použijte <strong>Android zařízení</strong>.
   </p>
 </div>
 
