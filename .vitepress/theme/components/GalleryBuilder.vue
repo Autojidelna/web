@@ -1,5 +1,5 @@
 <script setup>
-const images = Object.values(import.meta.glob("/public/gallery/*.svg", { eager: true, query: "?url", import: "default" }));
+const images = Object.values(import.meta.glob("/public/legacy/gallery/*.svg", { eager: true, query: "?url", import: "default" }));
 
 function getImageAltText(image) {
   return image.replace(/^\/public\/gallery\//, "").replace(/\.svg.*$/, "");
