@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-import { getLatestRelease } from "../data/github-api";
+import { getLatestRelease } from "../data/release.data.ts";
 
 const props = withDefaults(
   defineProps<{

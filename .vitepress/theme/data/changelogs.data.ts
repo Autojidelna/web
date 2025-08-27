@@ -1,4 +1,5 @@
 import { Octokit } from "@octokit/rest";
+import { getLatestRelease } from "./release.data.ts";
 
 // Initialize Octokit
 const octokit = new Octokit();
@@ -11,23 +12,6 @@ type ChangelogEntry = {
 
 // This is returned by getChangelogList()
 type ChangelogArray = ChangelogEntry[];
-
-// Gets latest release data
-export async function getLatestRelease(legacyVersion: boolean = false) {
-  try {
-    // Make a request to the GitHub API to fetch latest release
-    const latestRelease = await octokit.repos.getLatestRelease({
-      owner: "Autojidelna",
-      repo: legacyVersion ? "autojidelna-legacy" : "autojidelna"
-    });
-
-    // Return the fetched data
-    return latestRelease.data;
-  } catch (error) {
-    console.error("Error fetching latest release data from GitHub:", error);
-    throw error; // Re-throw the error to handle it in the calling code
-  }
-}
 
 // Gets content of CHANGELOG.md and makes an array out of it
 export async function getChangelogList(legacyVersion: boolean = false) {

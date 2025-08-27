@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MarkdownIt from "markdown-it";
 import { onMounted, ref } from "vue";
-import { getChangelogList } from "../data/github-api";
+import { getChangelogList } from "../data/changelogs.data.ts";
 
 const props = withDefaults(
   defineProps<{

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import { getLatestRelease } from "../data/github-api";
+import { getLatestRelease } from "../data/release.data.ts";
 import { useData } from "vitepress";
 
 const props = withDefaults(
