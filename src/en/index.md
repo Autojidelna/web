@@ -9,10 +9,13 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /en/legacy/guides/getting-started.md
-    - theme: alt
-      text: Download
-      link: /en/download.md
+      link: /en/pre-register.md
+    #- theme: brand
+    #  text: Get started
+    #  link: /en/legacy/guides/getting-started.md
+    #- theme: alt
+    #  text: Download
+    #  link: /en/download.md
 
 features:
   - title: Notifications
