@@ -1,12 +1,13 @@
 ---
-description: Stránka ke stažení, která uživatelům umožňuje přístup k nejnovější verzi aplikace a její instalaci.
+description: Stránka ke předregistraci, která uživatelům umožňuje přístup k budoucí v2.0.0 verzi aplikace.
 next: false
 prev: false
 ---
 
 # Předběžná registrace
 
-<!--Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate :appRelease="releaseData.release" />**.-->
+Těší nás, že už brzy přivítáme novou verzi **Autojídelny**! 🚀  
+Předregistrujte se a buďte mezi prvními, kdo vyzkouší modernější aplikaci s novými funkcemi a vylepšeným uživatelským zážitkem. Vaše zkušenosti a zpětná vazba nám pomohou udělat verzi v2.0.0 opravdu výjimečnou!
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Nepodporovaný operační systém</p>
@@ -19,12 +20,6 @@ prev: false
 <DownloadButton :releaseData="releaseData" />
 
 <div style="text-align: center;">Vyžaduje <b>Android 7.0</b> nebo vyšší.</div>
-
-<!--<Changelog :releaseData="releaseData" />
-
-<div style="margin-top: 2em; text-align: center; color: #888888;">
-  Všechny changelogy naleznete na <a href="/changelogs">Changelog stránce</a>.
-</div>-->
 
 <!-- Setup script-->
 

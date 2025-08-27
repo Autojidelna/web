@@ -1,12 +1,13 @@
 ---
-description: Download page that allows users to access and install the latest version of the app.
+description: Pre-register page that allows users to access the upcoming v2.0.0 release of the app.
 next: false
 prev: false
 ---
 
 # Pre-register
 
-<!-- The latest version of **Autojídelna** was released on **<ReleaseDate :appRelease="releaseData.release" />**. -->
+We’re thrilled to announce that the next major version of **Autojídelna** is almost here! 🎉  
+Pre-register now to be among the first to experience the new app, packed with exciting improvements, new features, and a smoother experience. Your feedback will help us make v2.0.0 the best it can be!
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Unsupported operating system</p>
@@ -20,13 +21,7 @@ prev: false
 
 <div style="text-align: center;">Requires <b>Android 7.0</b> or higher.</div >
 
-<!--<Changelog :releaseData="releaseData" />
-
-<div style="margin-top: 2em; text-align: center; color: #888888;">
-  All changelogs can be found on the <a href="/en/changelogs">Changelog page</a>.
-</div>-->
-
-<!-- Setupt script -->
+<!-- Setup script-->
 
 <script setup lang="ts">
   import ReleaseDate from "@theme/components/ReleaseDate.vue";

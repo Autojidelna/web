@@ -9,8 +9,8 @@ prev: false
 The latest version of **Autojídelna** was released on **<ReleaseDate  :appRelease="releaseData.release" />**.
 
 ::: tip Version 2.0.0
-We are working on version **2.0.0** and it will be on the **Google Play Store**.  
-You can pre-register for v2 at this link: [Pre-register on Play Store][play-store]
+We are working on version **2.0.0** and it will be on the **Google Play**.  
+You can pre-register for v2 at this link: [Pre-register on Google Play][google-play]
 :::
 
 <div v-if="!isAndroid" class="custom-block danger">
@@ -31,7 +31,7 @@ You can pre-register for v2 at this link: [Pre-register on Play Store][play-stor
   All changelogs can be found on the <a href="/en/legacy/changelogs">Changelog page</a>.
 </div>
 
-[play-store]: https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna
+[google-play]: https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna
 
 <!-- Setupt script -->
 <script setup lang="ts">

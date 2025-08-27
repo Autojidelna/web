@@ -9,8 +9,8 @@ prev: false
 Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate :appRelease="releaseData.release" />**.
 
 ::: tip Verze 2.0.0
-Pracujeme na verzi **2.0.0**, která bude dostupná na **Google Play Store**.  
-Můžete se předregistrovat na tuto verzi zde: [Předregistrace na Play Store][play-store]
+Pracujeme na verzi **2.0.0**, která bude dostupná na **Google Play**.  
+Můžete se předregistrovat na tuto verzi zde: [Předregistrace na Google Play][google-play]
 :::
 
 <div v-if="!isAndroid" class="custom-block danger">
@@ -31,7 +31,7 @@ Můžete se předregistrovat na tuto verzi zde: [Předregistrace na Play Store][
   Všechny changelogy naleznete na <a href="/legacy/changelogs">Changelog stránce</a>.
 </div>
 
-[play-store]: https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna
+[google-play]: https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna
 
 <!-- Setup script-->
 <script setup lang="ts">
