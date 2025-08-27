@@ -21,7 +21,14 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     sidebar: [
       {
-        text: "Legacy",
+        text: "Verze 2.x.x",
+        items: [
+          { text: "Stáhnout aplikaci", link: "/download.md" },
+          { text: "Changelogy", link: "/changelogs.md" }
+        ]
+      },
+      {
+        text: "Verze 1.x.x",
         base: "/legacy",
         items: [
           { text: "Stáhnout aplikaci", link: "/download.md" },

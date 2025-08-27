@@ -6,12 +6,7 @@ prev: false
 
 # Download
 
-The latest version of **Autojídelna** was released on **<ReleaseDate legacyVersion />**.
-
-::: tip Verze 2.0.0
-We are working on version **2.0.0** and it will be on the **Google Play Store**.  
-You can pre-register for v2 at this link: [Pre-register on Play Store][play-store]
-:::
+The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Unsupported operating system</p>
@@ -21,19 +16,18 @@ You can pre-register for v2 at this link: [Pre-register on Play Store][play-stor
   </p>
 </div>
 
-<DownloadButton legacyVersion />
+<DownloadButton />
 
-<div style="text-align: center;">Requires <b>Android 5.0</b> or higher.</div >
+<div style="text-align: center;">Requires <b>Android 7.0</b> or higher.</div >
 
-<Changelog legacyVersion />
+<Changelog />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
-  All changelogs can be found on the <a href="/en/legacy/changelogs">Changelog page</a>.
+  All changelogs can be found on the <a href="/en/changelogs">Changelog page</a>.
 </div>
 
-[play-store]: https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna
-
 <!-- Setupt script -->
+
 <script setup lang="ts">
   import { computed, onMounted, ref } from 'vue'
   import ReleaseDate from "@theme/components/ReleaseDate.vue"

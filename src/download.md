@@ -6,12 +6,7 @@ prev: false
 
 # Stáhnout aplikaci
 
-Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate legacyVersion />**.
-
-::: tip Verze 2.0.0
-Pracujeme na verzi **2.0.0**, která bude dostupná na **Google Play Store**.  
-Můžete se předregistrovat na tuto verzi zde: [Předregistrace na Play Store][play-store]
-:::
+Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Nepodporovaný operační systém</p>
@@ -21,19 +16,18 @@ Můžete se předregistrovat na tuto verzi zde: [Předregistrace na Play Store][
   </p>
 </div>
 
-<DownloadButton legacyVersion />
+<DownloadButton />
 
-<div style="text-align: center;">Vyžaduje <b>Android 5.0</b> nebo vyšší.</div>
+<div style="text-align: center;">Vyžaduje <b>Android 7.0</b> nebo vyšší.</div>
 
-<Changelog legacyVersion />
+<Changelog />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
-  Všechny changelogy naleznete na <a href="/legacy/changelogs">Changelog stránce</a>.
+  Všechny changelogy naleznete na <a href="/changelogs">Changelog stránce</a>.
 </div>
 
-[play-store]: https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna
-
 <!-- Setup script-->
+
 <script setup lang="ts">
   import { computed, onMounted, ref } from 'vue'
   import ReleaseDate from "@theme/components/ReleaseDate.vue"

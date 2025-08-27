@@ -26,6 +26,11 @@ onMounted(async () => {
 
 <template>
   <div class="download-buttons">
+    <!---->
+    <a v-if="!legacyVersion" class="download-button primary" href="https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna">
+      <span>Google Play Store</span>
+    </a>
+    <!---->
     <a v-if="release && asset" class="download-button primary" :download="asset?.name || 'autojidelna.apk'" :href="asset?.browser_download_url">
       <span>Stable </span>
       <span>{{ release?.tag_name ?? "0.0.0" }}</span>
@@ -69,9 +74,9 @@ onMounted(async () => {
 }
 
 .dissabled {
-  border-color: var(--vp-button-brand-border);
-  color: var(--vp-button-brand-text);
-  background-color: var(--vp-button-brand-bg);
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  background-color: #ffffff00;
   text-decoration: none;
 }
 

@@ -21,8 +21,16 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     sidebar: [
       {
-        text: "Legacy",
-        base: "en/legacy",
+        text: "Version 2.x.x",
+        base: "/en",
+        items: [
+          { text: "Download", link: "/download.md" },
+          { text: "Changelogs", link: "/changelogs.md" }
+        ]
+      },
+      {
+        text: "Version 1.x.x",
+        base: "/en/legacy",
         items: [
           { text: "Download", link: "/download.md" },
           { text: "Changelogs", link: "/changelogs.md" },
