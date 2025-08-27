@@ -15,16 +15,18 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     siteTitle: "Autojídelna",
 
     nav: [
-      { text: "Stáhnout aplikaci", link: "/download.md" },
-      { text: "Changelogy", link: "/changelogs.md" }
+      { text: "Předběžná registrace", link: "/pre-register.md" }
+      //{ text: "Stáhnout aplikaci", link: "/download.md" }
+      //{ text: "Changelogy", link: "/changelogs.md" }
     ],
 
     sidebar: [
       {
         text: "Verze 2.x.x",
         items: [
-          { text: "Stáhnout aplikaci", link: "/download.md" },
-          { text: "Changelogy", link: "/changelogs.md" }
+          { text: "Předběžná registrace", link: "/pre-register.md" }
+          //{ text: "Stáhnout aplikaci", link: "/download.md" }
+          //{ text: "Changelogy", link: "/changelogs.md" }
         ]
       },
       {
@@ -47,7 +49,7 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     outline: { level: [2, 3], label: "Na této stránce" },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/App-Elevate" },
+      { icon: "github", link: "https://github.com/Autojidelna/autojidelna" },
       {
         icon: {
           svg: `<svg role="img" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
@@ -60,12 +62,12 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     footer: {
       message:
-        "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Vydáno pod licencí GPL-3.0</a> | <a href='http://autojidelna.cz/privacy-policy/'>Zásady ochrany osobních údajů</a>",
+        "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Vydáno pod licencí GPL-3.0</a> | <a href='https://autojidelna.cz/privacy-policy/'>Zásady ochrany osobních údajů</a>",
       copyright: `Copyright © 2023 - ${new Date().getFullYear()} Matěj Verhaegen, Tomáš Protiva`
     },
 
     editLink: {
-      pattern: "https://github.com/App-Elevate/Autojidelna-web/edit/main/src/:path",
+      pattern: "https://github.com/Autojidelna/web/edit/main/src/:path",
       text: "Upravit na GitHubu"
     },
     lastUpdated: {

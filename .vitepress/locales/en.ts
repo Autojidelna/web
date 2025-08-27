@@ -15,8 +15,9 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     siteTitle: "Autojídelna",
 
     nav: [
-      { text: "Get app", link: "/en/download.md" },
-      { text: "Changelogs", link: "/en/changelogs.md" }
+      { text: "Pre-register", link: "/en/pre-register.md" }
+      //{ text: "Get app", link: "/en/download.md" }
+      //{ text: "Changelogs", link: "/en/changelogs.md" }
     ],
 
     sidebar: [
@@ -24,8 +25,9 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: "Version 2.x.x",
         base: "/en",
         items: [
-          { text: "Download", link: "/download.md" },
-          { text: "Changelogs", link: "/changelogs.md" }
+          { text: "Pre-register", link: "/pre-register.md" }
+          //{ text: "Pre-register", link: "/download.md" }
+          //{ text: "Changelogs", link: "/changelogs.md" }
         ]
       },
       {
@@ -48,7 +50,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     outline: { level: [2, 3] },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/App-Elevate/AUT.website" },
+      { icon: "github", link: "https://github.com/Autojidelna/autojidelna" },
       {
         icon: {
           svg: `<svg role="img" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
@@ -61,10 +63,10 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     footer: {
       message:
-        "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Released under the GPL-3.0 license</a> | <a href='http://autojidelna.cz/en/privacy-policy/'>Privacy Policy</a>",
+        "<a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>Released under the GPL-3.0 license</a> | <a href='https://autojidelna.cz/en/privacy-policy/'>Privacy Policy</a>",
       copyright: `Copyright © 2023 - ${new Date().getFullYear()} Matěj Verhaegen, Tomáš Protiva`
     },
-    editLink: { pattern: "https://github.com/App-Elevate/Autojidelna-web/edit/main/src/:path" },
+    editLink: { pattern: "https://github.com/Autojidelna/web/edit/main/src/:path" },
     search: { provider: "local" }
   }
 };
