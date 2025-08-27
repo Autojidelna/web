@@ -15,22 +15,24 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     siteTitle: "Autojídelna",
 
     nav: [
-      { text: "Get app", link: "/en/download/index.md" },
-      { text: "Gallery", link: "/en/gallery/index.md" },
-      { text: "Guides", link: "/en/guides/getting-started.md" }
+      { text: "Get app", link: "/en/download.md" },
+      { text: "Changelogs", link: "/en/changelogs.md" }
     ],
 
     sidebar: [
       {
+        text: "Legacy",
+        base: "en/legacy",
         items: [
-          { text: "Download", link: "/en/download.md" },
-          { text: "Changelogs", link: "/en/changelogs.md" },
-          { text: "Gallery", link: "/en/gallery.md" }
+          { text: "Download", link: "/download.md" },
+          { text: "Changelogs", link: "/changelogs.md" },
+          { text: "Gallery", link: "/gallery.md" },
+          {
+            text: "Guides",
+            base: "/en/legacy/guides",
+            items: [{ text: "Getting Started", link: "/getting-started.md" }]
+          }
         ]
-      },
-      {
-        text: "Guides",
-        items: [{ text: "Getting Started", link: "/en/guides/getting-started.md" }]
       }
     ],
 

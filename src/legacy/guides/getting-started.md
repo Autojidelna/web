@@ -22,6 +22,6 @@ V závislosti na nastavení vašeho zařízení může být potřeba udělit **p
 
 <!-- Links -->
 
-[download]: /download.md
-[install-permission]: /guides_install_permission.webp "Bezpečnostní varování"
-[unknown-apps]: /guides_install_unknown_apps_settings.webp "Instalovat neznámé aplikace | Nastavení"
+[download]: /legacy/download.md
+[install-permission]: /legacy/guides_install_permission.webp "Bezpečnostní varování"
+[unknown-apps]: /legacy/guides_install_unknown_apps_settings.webp "Instalovat neznámé aplikace | Nastavení"

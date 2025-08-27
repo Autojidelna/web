@@ -12,7 +12,7 @@ Changelogs for all stable versions of **Autojídelna** are also available on [Gi
 Changelogs are only available in Czech. We apologize for any inconvenience to non-Czech speakers.
 :::
 
-<ChangelogsList />
+<ChangelogsList legacyVersion />
 
 <!-- Setup script -->
 
@@ -22,4 +22,4 @@ Changelogs are only available in Czech. We apologize for any inconvenience to no
 
 <!-- Links -->
 
-[changelog]: https://github.com/Autojidelna/autojidelna/blob/main/CHANGELOG.md
+[changelog]: https://github.com/Autojidelna/autojidelna-legacy/blob/main/CHANGELOG.md

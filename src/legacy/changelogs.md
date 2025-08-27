@@ -8,7 +8,7 @@ prev: false
 
 Changelogy všech stabilních verzí **Autojídelny** jsou také dostupné [na GitHub][changelog].
 
-<ChangelogsList />
+<ChangelogsList legacyVersion />
 
 <!-- Setup script -->
 
@@ -18,4 +18,4 @@ Changelogy všech stabilních verzí **Autojídelny** jsou také dostupné [na G
 
 <!-- Links -->
 
-[changelog]: https://github.com/Autojidelna/autojidelna/blob/main/CHANGELOG.md
+[changelog]: https://github.com/Autojidelna/autojidelna-legacy/blob/main/CHANGELOG.md

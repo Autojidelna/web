@@ -6,7 +6,7 @@ next: false
 
 # Galerie
 
-<GalleryBuilder />
+<GalleryBuilder legacyVersion />
 
 <!-- Setup script -->
 

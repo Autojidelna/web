@@ -16,21 +16,23 @@ export const csConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     nav: [
       { text: "Stáhnout aplikaci", link: "/download.md" },
-      { text: "Galerie", link: "/gallery.md" },
-      { text: "Návody", link: "/guides/getting-started.md" }
+      { text: "Changelogy", link: "/changelogs.md" }
     ],
 
     sidebar: [
       {
+        text: "Legacy",
+        base: "/legacy",
         items: [
           { text: "Stáhnout aplikaci", link: "/download.md" },
           { text: "Changelogy", link: "/changelogs.md" },
-          { text: "Galerie", link: "/gallery.md" }
+          { text: "Galerie", link: "/gallery.md" },
+          {
+            text: "Návody",
+            base: "/legacy/guides",
+            items: [{ text: "Začínáme", link: "/getting-started.md" }]
+          }
         ]
-      },
-      {
-        text: "Návody",
-        items: [{ text: "Začínáme", link: "/guides/getting-started.md" }]
       }
     ],
 

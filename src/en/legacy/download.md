@@ -16,11 +16,11 @@ The latest version of **Autojídelna** was released on **<ReleaseDate />**.
   </p>
 </div>
 
-<DownloadButton />
+<DownloadButton legacyVersion />
 
 <div style="text-align: center;">Requires <b>Android 6.0</b> or higher.</div >
 
-<Changelog />
+<Changelog legacyVersion />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
   All changelogs can be found on the <a href="/en/changelogs.md">Changelog page</a>.

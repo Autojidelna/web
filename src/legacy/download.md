@@ -16,11 +16,11 @@ Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
   </p>
 </div>
 
-<DownloadButton />
+<DownloadButton legacyVersion />
 
 <div style="text-align: center;">Vyžaduje <b>Android 6.0</b> nebo vyšší.</div>
 
-<Changelog />
+<Changelog legacyVersion />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
   Všechny changelogy naleznete na <a href="/changelogs.md">Changelog stránce</a>.

@@ -22,6 +22,6 @@ Depending on your device settings, you might need to grant **your browser** perm
 
 <!-- Links -->
 
-[download]: /en/download.md
-[install-permission]: /guides_install_permission.webp "Security warning"
-[unknown-apps]: /guides_install_unknown_apps_settings.webp "Install Unknown Apps | Settings"
+[download]: /en/legacy/download.md
+[install-permission]: /legacy/guides_install_permission.webp "Security warning"
+[unknown-apps]: /legacy/guides_install_unknown_apps_settings.webp "Install Unknown Apps | Settings"
