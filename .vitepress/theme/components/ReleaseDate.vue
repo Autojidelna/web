@@ -1,34 +1,16 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import { getLatestRelease } from "../data/release.data.ts";
 import { useData } from "vitepress";
+import { AppRelease } from "../types/types.ts";
 
-const props = withDefaults(
-  defineProps<{
-    legacyVersion?: boolean;
-  }>(),
-  {
-    legacyVersion: false
-  }
-);
-
+const props = defineProps<{ appRelease: AppRelease }>();
 const locale = useData().lang.value.substring(0, 2);
 const dateFormatter = new Intl.DateTimeFormat(locale, {
   dateStyle: "long"
 });
-
-const release = ref(null);
-onMounted(async () => {
-  try {
-    release.value = await getLatestRelease(props.legacyVersion);
-  } catch (error) {
-    console.error("Error fetching latest release date:", error);
-  }
-});
 </script>
 
 <template>
-  <time v-if="release">
-    {{ dateFormatter.format(new Date(release.published_at!)) }}
+  <time>
+    {{ dateFormatter.format(new Date(props.appRelease.published_at!)) }}
   </time>
 </template>

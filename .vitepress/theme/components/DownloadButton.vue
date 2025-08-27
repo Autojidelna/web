@@ -1,39 +1,30 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
-import { getLatestRelease } from "../data/release.data.ts";
+import { ref } from "vue";
+import { ReleaseWithChangelogs } from "../types/types.ts";
 
-const props = withDefaults(
-  defineProps<{
-    legacyVersion?: boolean;
-  }>(),
-  {
-    legacyVersion: false
-  }
-);
-
-const release = ref(null);
-const asset = ref(null);
-
-onMounted(async () => {
-  try {
-    release.value = await getLatestRelease(props.legacyVersion);
-    asset.value = (release.value.assets || []).find(a => a.name === "autojidelna.apk");
-  } catch (error) {
-    console.error("Error fetching latest release data:", error);
-  }
-});
+const props = defineProps<{ releaseData: ReleaseWithChangelogs }>();
+const asset = ref<any | null | undefined>((props.releaseData.release.assets || []).find(a => a.name === "autojidelna.apk"));
 </script>
 
 <template>
   <div class="download-buttons">
     <!---->
-    <a v-if="!legacyVersion" class="download-button primary" href="https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna">
+    <a
+      v-if="!props.releaseData.legacy"
+      class="download-button primary"
+      href="https://play.google.com/store/apps/details?id=cz.appelevate.autojidelna"
+    >
       <span>Google Play</span>
     </a>
     <!---->
-    <a v-if="release && asset" class="download-button primary" :download="asset?.name || 'autojidelna.apk'" :href="asset?.browser_download_url">
-      <span>Android APK v </span>
-      <span>{{ release?.tag_name }}</span>
+    <a
+      v-if="props.releaseData && asset"
+      class="download-button primary"
+      :download="asset?.name || 'autojidelna.apk'"
+      :href="asset?.browser_download_url"
+    >
+      <span>Android APK </span>
+      <span>{{ props.releaseData.release?.tag_name }}</span>
     </a>
   </div>
 </template>
