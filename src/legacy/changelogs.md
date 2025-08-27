@@ -8,12 +8,14 @@ prev: false
 
 Changelogy všech stabilních verzí **Autojídelny** jsou také dostupné [na GitHub][changelog].
 
-<ChangelogsList legacyVersion />
+<ChangelogsList :releaseData="releaseData" />
 
 <!-- Setup script -->
 
 <script setup lang="ts">
   import ChangelogsList from "@theme/components/ChangelogsList.vue";
+  import { data as loaderData } from '@theme/data/releaseWithChangelogs.data.ts';
+  const releaseData = loaderData.legacy;
 </script>
 
 <!-- Links -->

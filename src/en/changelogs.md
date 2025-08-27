@@ -12,12 +12,14 @@ Changelogs for all stable versions of **Autojídelna** are also available on [Gi
 Changelogs are only available in Czech. We apologize for any inconvenience to non-Czech speakers.
 :::
 
-<ChangelogsList />
+<ChangelogsList :releaseData="releaseData" />
 
 <!-- Setup script -->
 
 <script setup lang="ts">
   import ChangelogsList from "@theme/components/ChangelogsList.vue";
+  import { data as loaderData } from '@theme/data/releaseWithChangelogs.data.ts';
+  const releaseData = loaderData.latest;
 </script>
 
 <!-- Links -->

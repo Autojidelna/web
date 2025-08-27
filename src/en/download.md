@@ -6,7 +6,7 @@ prev: false
 
 # Download
 
-The latest version of **Autojídelna** was released on **<ReleaseDate />**.
+The latest version of **Autojídelna** was released on **<ReleaseDate :appRelease="releaseData.release" />**.
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Unsupported operating system</p>
@@ -16,11 +16,11 @@ The latest version of **Autojídelna** was released on **<ReleaseDate />**.
   </p>
 </div>
 
-<DownloadButton />
+<DownloadButton :releaseData="releaseData" />
 
 <div style="text-align: center;">Requires <b>Android 7.0</b> or higher.</div >
 
-<Changelog />
+<Changelog :releaseData="releaseData" />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
   All changelogs can be found on the <a href="/en/changelogs">Changelog page</a>.
@@ -29,10 +29,12 @@ The latest version of **Autojídelna** was released on **<ReleaseDate />**.
 <!-- Setupt script -->
 
 <script setup lang="ts">
-  import { computed, onMounted, ref } from 'vue'
-  import ReleaseDate from "@theme/components/ReleaseDate.vue"
-  import DownloadButton from "@theme/components/DownloadButton.vue"
-  import Changelog from "@theme/components/Changelog.vue"
+  import ReleaseDate from "@theme/components/ReleaseDate.vue";
+  import DownloadButton from "@theme/components/DownloadButton.vue";
+  import Changelog from "@theme/components/Changelog.vue";
+  import { computed, onMounted, ref } from 'vue';
+  import { data as loaderData } from '@theme/data/releaseWithChangelogs.data.ts';
+  const releaseData = loaderData.latest;
 
   const isAndroid = ref(true)
   onMounted(() => {

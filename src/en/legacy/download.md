@@ -6,9 +6,9 @@ prev: false
 
 # Download
 
-The latest version of **Autojídelna** was released on **<ReleaseDate legacyVersion />**.
+The latest version of **Autojídelna** was released on **<ReleaseDate  :appRelease="releaseData.release" />**.
 
-::: tip Verze 2.0.0
+::: tip Version 2.0.0
 We are working on version **2.0.0** and it will be on the **Google Play Store**.  
 You can pre-register for v2 at this link: [Pre-register on Play Store][play-store]
 :::
@@ -21,11 +21,11 @@ You can pre-register for v2 at this link: [Pre-register on Play Store][play-stor
   </p>
 </div>
 
-<DownloadButton legacyVersion />
+<DownloadButton :releaseData="releaseData" />
 
 <div style="text-align: center;">Requires <b>Android 5.0</b> or higher.</div >
 
-<Changelog legacyVersion />
+<Changelog :releaseData="releaseData" />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
   All changelogs can be found on the <a href="/en/legacy/changelogs">Changelog page</a>.
@@ -35,10 +35,12 @@ You can pre-register for v2 at this link: [Pre-register on Play Store][play-stor
 
 <!-- Setupt script -->
 <script setup lang="ts">
-  import { computed, onMounted, ref } from 'vue'
-  import ReleaseDate from "@theme/components/ReleaseDate.vue"
-  import DownloadButton from "@theme/components/DownloadButton.vue"
-  import Changelog from "@theme/components/Changelog.vue"
+  import ReleaseDate from "@theme/components/ReleaseDate.vue";
+  import DownloadButton from "@theme/components/DownloadButton.vue";
+  import Changelog from "@theme/components/Changelog.vue";
+  import { computed, onMounted, ref } from 'vue';
+  import { data as loaderData } from '@theme/data/releaseWithChangelogs.data.ts';
+  const releaseData = loaderData.legacy;
 
   const isAndroid = ref(true)
   onMounted(() => {

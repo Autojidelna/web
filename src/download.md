@@ -6,7 +6,7 @@ prev: false
 
 # Stáhnout aplikaci
 
-Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
+Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate :appRelease="releaseData.release" />**.
 
 <div v-if="!isAndroid" class="custom-block danger">
  <p class="custom-block-title">Nepodporovaný operační systém</p>
@@ -16,11 +16,11 @@ Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
   </p>
 </div>
 
-<DownloadButton />
+<DownloadButton :releaseData="releaseData" />
 
 <div style="text-align: center;">Vyžaduje <b>Android 7.0</b> nebo vyšší.</div>
 
-<Changelog />
+<Changelog :releaseData="releaseData" />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
   Všechny changelogy naleznete na <a href="/changelogs">Changelog stránce</a>.
@@ -29,10 +29,12 @@ Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate />**.
 <!-- Setup script-->
 
 <script setup lang="ts">
-  import { computed, onMounted, ref } from 'vue'
-  import ReleaseDate from "@theme/components/ReleaseDate.vue"
-  import DownloadButton from "@theme/components/DownloadButton.vue"
-  import Changelog from "@theme/components/Changelog.vue"
+  import ReleaseDate from "@theme/components/ReleaseDate.vue";
+  import DownloadButton from "@theme/components/DownloadButton.vue";
+  import Changelog from "@theme/components/Changelog.vue";
+  import { computed, onMounted, ref } from 'vue';
+  import { data as loaderData } from '@theme/data/releaseWithChangelogs.data.ts';
+  const releaseData = loaderData.latest;
 
   const isAndroid = ref(true)
   onMounted(() => {

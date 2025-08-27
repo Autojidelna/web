@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Začínáme
-      link: /cs/guides/getting-started/index.md
+      link: /cs/legacy/guides/getting-started.md
     - theme: alt
       text: Stáhnout
-      link: /cs/download/index.md
+      link: /cs/download.md
 
 features:
   - title: Oznámení

@@ -6,7 +6,7 @@ prev: false
 
 # Stáhnout aplikaci
 
-Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate legacyVersion />**.
+Nejnovější verze **Autojídelny** byla vydána **<ReleaseDate :appRelease="releaseData.release" />**.
 
 ::: tip Verze 2.0.0
 Pracujeme na verzi **2.0.0**, která bude dostupná na **Google Play Store**.  
@@ -21,11 +21,11 @@ Můžete se předregistrovat na tuto verzi zde: [Předregistrace na Play Store][
   </p>
 </div>
 
-<DownloadButton legacyVersion />
+<DownloadButton :releaseData="releaseData" />
 
 <div style="text-align: center;">Vyžaduje <b>Android 5.0</b> nebo vyšší.</div>
 
-<Changelog legacyVersion />
+<Changelog :releaseData="releaseData" />
 
 <div style="margin-top: 2em; text-align: center; color: #888888;">
   Všechny changelogy naleznete na <a href="/legacy/changelogs">Changelog stránce</a>.
@@ -35,10 +35,12 @@ Můžete se předregistrovat na tuto verzi zde: [Předregistrace na Play Store][
 
 <!-- Setup script-->
 <script setup lang="ts">
-  import { computed, onMounted, ref } from 'vue'
-  import ReleaseDate from "@theme/components/ReleaseDate.vue"
-  import DownloadButton from "@theme/components/DownloadButton.vue"
-  import Changelog from "@theme/components/Changelog.vue"
+  import ReleaseDate from "@theme/components/ReleaseDate.vue";
+  import DownloadButton from "@theme/components/DownloadButton.vue";
+  import Changelog from "@theme/components/Changelog.vue";
+  import { computed, onMounted, ref } from 'vue';
+  import { data as loaderData } from '@theme/data/releaseWithChangelogs.data.ts';
+  const releaseData = loaderData.legacy;
 
   const isAndroid = ref(true)
   onMounted(() => {
