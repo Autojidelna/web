@@ -13,7 +13,7 @@ type ChangelogEntry = {
 type ChangelogArray = ChangelogEntry[];
 
 // Gets latest release data
-export async function getLatestRelease(legacyVersion: boolean) {
+export async function getLatestRelease(legacyVersion: boolean = false) {
   try {
     // Make a request to the GitHub API to fetch latest release
     const latestRelease = await octokit.repos.getLatestRelease({
@@ -30,7 +30,7 @@ export async function getLatestRelease(legacyVersion: boolean) {
 }
 
 // Gets content of CHANGELOG.md and makes an array out of it
-export async function getChangelogList(legacyVersion: boolean) {
+export async function getChangelogList(legacyVersion: boolean = false) {
   let content: any;
   let latestRelease: any;
   let isLatestRelease: boolean = false;
