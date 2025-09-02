@@ -21,12 +21,22 @@ export async function fetchChangelogs(repo: string) {
 
     // Decode base64 content and split by version headings
     const decoded = Buffer.from(result.data.content, "base64").toString("utf-8");
-    const changelogArray: ChangelogEntry[] = decoded.split(/(?=##)/).map(entry => {
-      const titleMatch = entry.match(/## (\d+\.\d+\.\d+(?:[-+][\w.]+)?)/);
-      const title = titleMatch ? titleMatch[1] : "Unknown Version";
-      const body = titleMatch ? entry.replace(/## (\d+\.\d+\.\d+(?:[-+][\w.]+)?)\n/, "") : entry;
-      return { title, content: body };
-    });
+
+    // Reusable regex for semantic versions (with optional pre-release or build tags)
+    const versionRegex = /## (\d+\.\d+\.\d+(?:[-+][\w.]+)?)/;
+
+    const changelogArray: ChangelogEntry[] = decoded
+      .split(/(?=##)/)
+      .map(entry => {
+        const titleMatch = entry.match(versionRegex);
+        if (!titleMatch) return null; // skip sections without versions
+
+        const title = titleMatch[1];
+        const body = entry.replace(versionRegex, "").trim();
+
+        return { title, content: body };
+      })
+      .filter((entry): entry is ChangelogEntry => entry !== null);
 
     return changelogArray;
   } catch (error) {
