@@ -76,10 +76,10 @@ We may update our Privacy Policy from time to time. When we do, we will notify y
 
 ## Contact Us
 
-If you have any questions or concerns about this Privacy Policy, please contact us at [info\@appelevate.cz][e-mail]
+If you have any questions or concerns about this Privacy Policy, please contact us at [autojidelna\@pm.me][e-mail]
 
 Thank you for using Autojídelna. Your privacy is important to us, and we are committed to protecting your personal information.
 
 <!-- Links -->
 
-[e-mail]: mailto:info@appelevate.cz?subject=Privacy%20Policy%20Concerns
+[e-mail]: mailto:autojidelna@pm.me?subject=Privacy%20Policy%20Concerns

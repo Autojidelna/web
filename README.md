@@ -1,3 +1,3 @@
-## Autojídelna web
+# Autojídelna web
 
 Webová stránka pro Autojídelnu
