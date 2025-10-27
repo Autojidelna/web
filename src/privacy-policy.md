@@ -1,5 +1,6 @@
 ---
 description: Zásady ochrany osobních údajů
+sidebar: false
 editLink: false
 next: false
 prev: false
@@ -76,10 +77,10 @@ Naše zásady ochrany osobních údajů můžeme čas od času aktualizovat. Pok
 
 ## Kontaktujte nás
 
-Máte-li jakékoli dotazy nebo připomínky k těmto Zásadám ochrany osobních údajů, kontaktujte nás na adrese [info\@appelevate.cz][e-mail]
+Máte-li jakékoli dotazy nebo připomínky k těmto Zásadám ochrany osobních údajů, kontaktujte nás na adrese [autojidelna\@pm.me][e-mail]
 
 Děkujeme, že používáte aplikaci Autojídelna. Vaše soukromí je pro nás důležité a zavazujeme se chránit vaše osobní údaje.
 
 <!-- Links -->
 
-[e-mail]: mailto:info@appelevate.cz?subject=Obavy%20týkající%20se%20zásad%20ochrany%20osobních%20údajů
+[e-mail]: mailto:autojidelna@pm.me?subject=Obavy%20týkající%20se%20zásad%20ochrany%20osobních%20údajů
