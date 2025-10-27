@@ -1,5 +1,6 @@
 ---
 description: Zásady ochrany osobních údajů
+sidebar: false
 editLink: false
 next: false
 prev: false
